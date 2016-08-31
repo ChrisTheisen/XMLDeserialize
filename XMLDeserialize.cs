@@ -7,6 +7,7 @@ using System.Reflection.Emit;
 using System.Runtime.InteropServices;
 
 //TODO: deserialize Attributes
+//TODO: deserialize Lists/Arrays
 
 class XMLDeserialize : Form {
     OpenFileDialog OFD = new OpenFileDialog() { Filter = "XML | *.XML" };
